@@ -98,3 +98,24 @@ body {
     margin-right: 10px; 
     margin-bottom: 10px;
   }
+@media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-container,
+    .right-container {
+      width: 100%;
+    }
+  
+    .coming-soon h2 {
+      margin-bottom: 10px; 
+    }
+  
+   
+    input[type="tel"],
+    input[type="email"],
+    button {
+      width: 80%;
+    }
+  }
